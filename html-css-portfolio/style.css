@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; line-height: 1.6; color: #222; }
+.hero {
+  text-align: center; padding: 80px 20px; color: #fff;
+  background: linear-gradient(135deg, #2f81f7, #3fb950);
+}
+.hero h1 { font-size: 2.4rem; margin-bottom: 10px; }
+.btn {
+  display: inline-block; margin-top: 20px; padding: 12px 26px;
+  background: #fff; color: #2f81f7; text-decoration: none;
+  border-radius: 30px; font-weight: 700;
+}
+section { max-width: 760px; margin: 0 auto; padding: 50px 20px; }
+section h2 { margin-bottom: 14px; }
+.skills ul { list-style: none; display: flex; flex-wrap: wrap; gap: 10px; }
+.skills li { background: #eef3fb; padding: 8px 16px; border-radius: 8px; }
+footer { text-align: center; padding: 24px; background: #161b22; color: #9aa7b4; }
